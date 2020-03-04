@@ -1,0 +1,83 @@
+/* regole generali --------------------------------*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* HEADER ------------------------------------------*/
+nav{
+  height: 50PX;
+  background: white!important;
+  border: none!important;
+}
+nav img{
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+  float: left;
+  padding: 14px;
+}
+/* MAIN ---------------------------------------------*/
+/* jumbotron ----------------------------*/
+#jumbotron{
+  margin-top: 50px;
+  background-image: url(../img/jumbotrone.jpg);
+}
+.form-jumbotron{
+  background-color: white;
+  border-radius: 4px;
+}
+/* costumers ---------------------------*/
+#costumers{
+  background-color: #F3F5F9;
+}
+#costumers h4{
+  text-align: center;
+}
+.costumers-img img{
+  width: 80%;
+  min-height: 100px;
+}
+#costumers span{
+  text-align: center;
+  display: block;
+}
+/* deploy --------------------------------*/
+#deploy h2{
+  text-align: center;
+}
+#deploy p{
+  text-align: center;
+}
+#deploy ul{
+  border-left: 1px solid #E5E8ED;
+  padding-left: 30px;
+}
+#deploy ul li{
+  cursor: pointer;
+  padding-top: 10px;
+}
+.cube h3{
+
+}
+#deploy .cube p{
+  text-align: left;
+}
+/* designed ------------------------------*/
+#designed,
+#development{
+  background-color: #F3F5F9;
+  text-align: center;
+}
+.designed-content span{
+  font-size: 8px;
+  color: #0069ff;
+  padding: 2px;
+}
+/* development ----------------------------*/
+.designed-content img{
+  display: block;
+  margin: auto;
+}
