@@ -5,6 +5,9 @@
   padding: 0;
   list-style-type: none;
 }
+h2{
+  text-align: center;
+}
 /* HEADER ------------------------------------------*/
 nav{
   height: 50PX;
@@ -45,9 +48,6 @@ nav ul li{
   display: block;
 }
 /* deploy --------------------------------*/
-#deploy h2{
-  text-align: center;
-}
 #deploy p{
   text-align: center;
 }
@@ -76,8 +76,35 @@ nav ul li{
   color: #0069ff;
   padding: 2px;
 }
+/* features -------------------------------*/
+/* service --------------------------------*/
+#service{
+  background-image: url(../img/sfondo-blu-gradiente.png);
+  color: white;
+}
+#service table tr{
+  border-bottom: 1px solid white;
+}
+#service table tr td,
+#service table tr th{
+  padding: 20px 64px 5px 0px;
+}
+#service table tr td:last-child{
+  padding-right: 15px;
+}
+#service table tr th{
+padding-left: 15px;
+}
 /* development ----------------------------*/
-.designed-content img{
-  display: block;
-  margin: auto;
+/* started --------------------------------*/
+#started{
+  background-image: url(../img/sfondo-blu-gradiente.png);
+  color: white;
+}
+.started-content{
+  text-align: center;
+}
+/* FOOTER ---------------------------------------------*/
+footer{
+  background-color: #041b4b;
 }
