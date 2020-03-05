@@ -21,17 +21,25 @@ a:hover{
 }
 /* HEADER ------------------------------------------*/
 nav{
-  height: 50PX;
+  height: 60PX;
   background: white!important;
   border: none!important;
 }
 nav img{
-  width: 100%;
+  margin-top: 8px;
 }
 nav ul li{
   display: inline-block;
   float: left;
-  padding: 14px;
+  padding: 20px 10px 0;
+}
+nav button{
+  color:#063bc5;
+  border: 1px solid #063bc5;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
 }
 /* MAIN ---------------------------------------------*/
 /* jumbotron ----------------------------*/
@@ -43,6 +51,7 @@ nav ul li{
 }
 #jumbotron p{
   color: #b5bffb;
+  font-size: 16px;
 }
 .form-jumbotron{
   background-color: white;
@@ -92,6 +101,9 @@ input{
   border-radius: 4px;
   font-size: 12px;
   position: relative;
+  background-image: url(../img/google-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #jumbotron .form-jumbotron p{
   color: black;
@@ -119,10 +131,16 @@ input{
   font-size: 14px;
   padding: 20px;
 }
-.costumers-img img{
+#costumers img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 10%;
+  margin: 37px;
+}
+/* .costumers-img img{
   width: 90%;
   min-height: 80px;
-}
+} */
 #costumers a{
   text-align: center;
   display: block;
@@ -146,11 +164,15 @@ input{
 #deploy ul{
   border-left: 1px solid #E5E8ED;
   padding-left: 10px;
+  margin-bottom: 33px;
 }
 #deploy ul li{
   cursor: pointer;
   padding: 10px 0;
   color: #929DB4;
+}
+#deploy ul li:hover{
+  color: #031B4E;
 }
 #deploy .cube h5{
   color:#031B4E;
@@ -194,6 +216,12 @@ input{
   font-size: 11px;
   color: #0069ff;
   padding: 2px;
+  cursor: pointer;
+}
+.frecce{
+  font-size: 40px!important;
+  color: #031B4E!important;
+  padding: 0 15px!important;
 }
 /* features -------------------------------*/
 #features{
@@ -227,7 +255,9 @@ input{
   color: white;
   padding: 50px 0;
 }
-
+#service table{
+  width: 100%;
+}
 #service table tr{
   border-bottom: 1px solid white;
 }
@@ -237,7 +267,7 @@ input{
   font-size: 11px;
 }
 #service td:last-child{
-  padding-left: 75px;
+  padding-left: 110px;
   color: #05aacc;
 }
 #service tr:last-child{
@@ -269,6 +299,9 @@ padding-left: 15px;
   padding: 10px;
   border-radius: 4px;
   font-size: 15px;
+}
+#started button:hover{
+  background-color:rgba(255,255,255,0.8);
 }
 /* FOOTER ---------------------------------------------*/
 footer{
