@@ -152,11 +152,11 @@ input{
   padding: 10px 0;
   color: #929DB4;
 }
-.cube h5{
+#deploy .cube h5{
   color:#031B4E;
   text-align: left;
 }
-.cube p{
+#deploy .cube p{
   text-align: left;
   color: #4E5F83;
   padding-bottom: 15px;
@@ -198,26 +198,54 @@ input{
 /* features -------------------------------*/
 #features{
   text-align: center;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 #features h2{
   color:#031B4E;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
+}
+#features .cube h5{
+  color:#031B4E;
+  text-align: left;
+}
+#features .cube p{
+  text-align: left;
+  color: #4E5F83;
+  padding-bottom: 15px;
+  min-height: 93px;
 }
 #features img{
   text-align: left;
+}
+#features span{
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
 }
 /* service --------------------------------*/
 #service{
   background-image: url(../img/sfondo-blu-gradiente.png);
   color: white;
+  padding: 50px 0;
 }
+
 #service table tr{
   border-bottom: 1px solid white;
 }
 #service table tr td,
 #service table tr th{
-  padding: 20px 64px 5px 0px;
+  padding: 20px 50px 5px 0px;
+  font-size: 11px;
+}
+#service td{
+  color: #3A4D75;
+}
+#service td:last-child{
+  padding-left: 75px;
+  color: #05aacc;
+}
+#service tr:last-child{
+  border-bottom: none;
 }
 #service table tr td:last-child{
   padding-right: 15px;
