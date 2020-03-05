@@ -91,6 +91,7 @@ input{
   padding: 1%;
   border-radius: 4px;
   font-size: 12px;
+  position: relative;
 }
 #jumbotron .form-jumbotron p{
   color: black;
@@ -101,7 +102,10 @@ input{
   text-decoration: underline;
 }
 #jumbotron .form-jumbotron img{
-
+  width: 5%;
+  position: absolute;
+  top: 2px;
+  left: 5px;
 }
 /* costumers ---------------------------*/
 #costumers{
@@ -117,22 +121,27 @@ input{
 }
 .costumers-img img{
   width: 90%;
-  min-height: 90px;
+  min-height: 80px;
 }
 #costumers a{
   text-align: center;
   display: block;
 }
 /* deploy --------------------------------*/
-#deploy h2,
-#deploy h3{
+#deploy{
+  padding-bottom: 35px;
+}
+#deploy h2{
   color:#031B4E;
   text-align: center;
+  padding-top: 30px;
+
 }
 .p-principale{
   text-align: center;
   color: #4E5F83;
   font-size: 16px;
+  margin-bottom: 50px;
 }
 #deploy ul{
   border-left: 1px solid #E5E8ED;
@@ -143,18 +152,43 @@ input{
   padding: 10px 0;
   color: #929DB4;
 }
-.cube h3{
-
+.cube h5{
+  color:#031B4E;
+  text-align: left;
 }
-#deploy .cube p{
+.cube p{
   text-align: left;
   color: #4E5F83;
+  padding-bottom: 15px;
 }
 /* designed ------------------------------*/
 #designed,
 #development{
   background-color: #F3F5F9;
   text-align: center;
+  padding: 40px 0;
+}
+#designed h2,
+#development h2{
+  color:#031B4E;
+  padding-bottom: 20px;
+}
+.designed-p,
+#development p{
+  text-align: center;
+  color: #4E5F83;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+#designed img{
+  width: 50%;
+  padding-bottom: 20px;
+}
+.designed-p-img{
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  color: #4E5F83;
+  font-size: 13px;
 }
 .designed-content span{
   font-size: 8px;
@@ -162,6 +196,17 @@ input{
   padding: 2px;
 }
 /* features -------------------------------*/
+#features{
+  text-align: center;
+  padding: 40px 0;
+}
+#features h2{
+  color:#031B4E;
+  padding-bottom: 10px;
+}
+#features img{
+  text-align: left;
+}
 /* service --------------------------------*/
 #service{
   background-image: url(../img/sfondo-blu-gradiente.png);
