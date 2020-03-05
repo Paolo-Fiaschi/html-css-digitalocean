@@ -179,6 +179,7 @@ input{
   cursor: pointer;
   padding: 10px 0;
   color: #929DB4;
+  width: 10%;
 }
 #deploy ul li:hover{
   color: #031B4E;
@@ -348,6 +349,31 @@ footer span:hover{
  nav button{
    display: none;
  }
+ #jumbotron p,
+ .p-principale,
+ .designed-p{
+   font-size: 18px;
+ }
+ #deploy ul li,
+ .cube p,
+ footer ul li,
+ footer p,
+ #costumers h4{
+   font-size: 16px;
+ }
+ h5{
+   font-size: 17px;
+ }
+ #service table tr th,
+ #service table tr td{
+   font-size: 13px;
+ }
+ #costumers img{
+   width: 14%;
+ }
+ .container-img img:first-child{
+   margin-left: 3%;
+ }
 
 }
 
@@ -365,7 +391,31 @@ footer span:hover{
   nav button{
     display: none;
   }
-
+  #jumbotron p,
+  .p-principale,
+  .designed-p{
+    font-size: 17px;
+  }
+  #deploy ul li,
+  .cube p,
+  footer ul li,
+  footer p,
+  #costumers h4{
+    font-size: 15px;
+  }
+  h5{
+    font-size: 16px;
+  }
+  #service table tr th,
+  #service table tr td{
+    font-size: 12px;
+  }
+  #costumers img{
+    width: 12%;
+  }
+  .container-img img:first-child{
+    margin-left: 10%;
+  }
 
 }
 
@@ -380,7 +430,6 @@ footer span:hover{
   nav button{
     display: none;
   }
-
 
 
 }
