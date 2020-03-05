@@ -191,13 +191,12 @@ input{
   font-size: 13px;
 }
 .designed-content span{
-  font-size: 8px;
+  font-size: 11px;
   color: #0069ff;
   padding: 2px;
 }
 /* features -------------------------------*/
 #features{
-  text-align: center;
   padding: 50px 0;
 }
 #features h2{
@@ -237,9 +236,6 @@ input{
   padding: 20px 50px 5px 0px;
   font-size: 11px;
 }
-#service td{
-  color: #3A4D75;
-}
 #service td:last-child{
   padding-left: 75px;
   color: #05aacc;
@@ -254,18 +250,44 @@ input{
 padding-left: 15px;
 }
 /* development ----------------------------*/
+#development img{
+  width: 55%;
+  padding-bottom: 20px;
+}
 /* started --------------------------------*/
 #started{
   background-image: url(../img/sfondo-blu-gradiente.png);
   color: white;
+  padding: 50px 0;
 }
 .started-content{
   text-align: center;
 }
 #started button{
   color: #063bc5;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
 }
 /* FOOTER ---------------------------------------------*/
 footer{
   background-color: #041b4b;
+  padding: 50px 0;
+  color: #838ca6;
+}
+footer h4{
+  color: white;
+}
+footer ul li{
+  padding-bottom: 10px;
+}
+footer span{
+  font-size: 20px;
+  padding-right: 5px;
+}
+footer ul li:hover,
+footer span:hover{
+  color: white;
+  cursor: pointer;
 }
