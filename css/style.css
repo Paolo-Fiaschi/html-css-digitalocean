@@ -26,7 +26,7 @@ nav{
   border: none!important;
 }
 nav img{
-  margin-top: 8px;
+  margin-top: 4px;
 }
 nav ul li{
   display: inline-block;
@@ -40,6 +40,12 @@ nav button{
   border-radius: 4px;
   padding: 5px;
   margin: 5px;
+}
+nav span{
+  color:#063bc5;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 15px;
 }
 /* MAIN ---------------------------------------------*/
 /* jumbotron ----------------------------*/
@@ -327,4 +333,62 @@ footer ul li:hover,
 footer span:hover{
   color: white;
   cursor: pointer;
+}
+/* MEDIA QUERY -------------------------------------------------------*/
+/* versione extra mobile xs */
+
+@media screen and (max-width:768px) {
+ .frecce{
+   display: none;
+ }
+ nav span{
+   display: block;
+ }
+ nav ul,
+ nav button{
+   display: none;
+ }
+
+}
+
+/* versione mobile sm */
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+  .frecce{
+    display: none;
+  }
+  nav span{
+    display: block;
+  }
+  nav ul,
+  nav button{
+    display: none;
+  }
+
+
+}
+
+/* versione tablet md */
+
+@media screen and (min-width:993px) and (max-width:1199px){
+
+  nav span{
+    display: block;
+  }
+  nav ul,
+  nav button{
+    display: none;
+  }
+
+
+
+}
+/* versione dekstop lg */
+
+@media screen and (min-width:1200px){
+
+  nav span{
+    display: none;
+  }
 }
