@@ -25,16 +25,16 @@ nav{
   background: white!important;
   border: none!important;
 }
-nav img{
+.main-nav img{
   margin-top: 4px;
 }
-nav ul li{
+.main-nav li{
   display: inline-block;
   float: left;
   padding: 20px 10px 0;
   color: #041b4b;
 }
-nav ul li:hover{
+.main-nav li:hover{
   color: #063bc5;
   cursor: pointer;
 }
@@ -141,9 +141,11 @@ nav button:hover{
   width: 98%;
   z-index: 100;
   height: auto;
-  border-bottom: 1px solid #E5E8ED;
   margin-bottom: 10%;
-  /* display: none; */
+  display: none;
+}
+.hamburger:hover .menu-tendina-md{
+  display: block;
 }
 .menu-md1{
   color: #041b4b;
@@ -156,6 +158,23 @@ nav button:hover{
   display: inline-block;
   padding: 5px;
   cursor: pointer;
+}
+.menu-md2{
+  margin: 5% 0 5% 9%;
+  font-size: 17px;
+}
+.menu-md2 ul li{
+  padding-bottom: 2%;
+}
+.menu-md3 button{
+  color:white;
+  border: 1px solid #063bc5;
+  background-color: #063bc5;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0 5% 2%;
+  text-align: center;
+  width: 90%;
 }
 /* MAIN ---------------------------------------------*/
 /* jumbotron ----------------------------*/
@@ -485,8 +504,8 @@ footer span:hover{
  nav span{
    display: block;
  }
- nav ul,
- nav button{
+ .main-nav,
+ .main-nav button{
    display: none;
  }
  #jumbotron p,
@@ -541,8 +560,8 @@ footer span:hover{
   nav span{
     display: block;
   }
-  nav ul,
-  nav button{
+  .main-nav,
+  .main-nav button{
     display: none;
   }
   #jumbotron p,
@@ -599,8 +618,8 @@ footer span:hover{
   nav span{
     display: block;
   }
-  nav ul,
-  nav button{
+  .main-nav,
+  .main-nav button{
     display: none;
   }
   #designed img{
