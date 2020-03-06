@@ -50,7 +50,7 @@ nav button:hover{
   color: white;
   background-color: #063bc5;
 }
-nav span{
+.hamburger{
   color:#063bc5;
   font-size: 20px;
   display: inline-block;
@@ -72,13 +72,12 @@ nav span{
   margin-bottom: 10%;
   display: none;
 }
-nav ul :hover .menu-tendina-lg{
+.products:hover .menu-tendina-lg{
   display: block;
 }
 .featured-sx{
   margin-left: 10%;
   border-right: 1px solid #E5E8ED;
-  /* border-bottom: 1px solid #E5E8ED; */
   margin-bottom: 10%;
 }
 .featured-sx h5{
@@ -98,16 +97,24 @@ nav ul :hover .menu-tendina-lg{
   cursor: pointer;
   color: #063bc5;
 }
-.menu-tendina-lg img{
+.featured-sx img{
   margin-right: 20px;
   display: inline-block;
   margin-bottom: 17px;
   vertical-align: middle;
   padding-bottom: 15px;
 }
-/* .featured-dx{
-  border-bottom: 1px solid #E5E8ED;
-} */
+.cube-menu{
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+}
+.featured-dx img{
+  padding-top: 16%;
+}
+.cube-menu h5{
+  color: #041b4b;
+}
 .featured-dx h5{
   color: #041b4b;
   text-transform: uppercase;
@@ -121,8 +128,34 @@ nav ul :hover .menu-tendina-lg{
 .menu-products a{
   text-align: center;
   display: block;
-  padding: 20px 0;
+  padding: 10px 0;
   border-top: 1px solid #E5E8ED;
+}
+/* menu-tendina-hamburger */
+.menu-tendina-md{
+  background: #F3F6F9;
+  margin: 60px 1%;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 98%;
+  z-index: 100;
+  height: auto;
+  border-bottom: 1px solid #E5E8ED;
+  margin-bottom: 10%;
+  /* display: none; */
+}
+.menu-md1{
+  color: #041b4b;
+  margin-left: 3%;
+}
+.menu-md1 img{
+  width: 4%;
+}
+.menu-md1 span{
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
 }
 /* MAIN ---------------------------------------------*/
 /* jumbotron ----------------------------*/
@@ -471,6 +504,14 @@ footer span:hover{
  h5{
    font-size: 17px;
  }
+ #designed img{
+   width: 70%;
+   padding-bottom: 20px;
+ }
+ #development img{
+   width: 75%;
+   padding-bottom: 20px;
+ }
  #service table tr th,
  #service table tr td{
    font-size: 13px;
@@ -540,6 +581,14 @@ footer span:hover{
     bottom: 40px;
     width: 28%;
   }
+  #designed img{
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  #development img{
+    width: 70%;
+    padding-bottom: 20px;
+  }
 
 }
 
@@ -553,6 +602,14 @@ footer span:hover{
   nav ul,
   nav button{
     display: none;
+  }
+  #designed img{
+    width: 55%;
+    padding-bottom: 20px;
+  }
+  #development img{
+    width: 60%;
+    padding-bottom: 20px;
   }
 
 
